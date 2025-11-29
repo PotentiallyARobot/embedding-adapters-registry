@@ -19,6 +19,25 @@
     "service": null
   },
   {
+  "slug": "emb_adapter_minilm_to_openai_text-embedding-3-vlarge_v1",
+  "source": "sentence-transformers/all-MiniLM-L6-v2",
+  "target": "openai/text-embedding-3-small",
+  "flavor": "vlarge",
+  "description": "vlarge adapter from sentence-transformers/all-MiniLM-L6-v2 to openai/text-embedding-3-small",
+  "version": "0.0.1",
+  "tags": [],
+  "mode": "local",
+  "primary": {
+    "type": "huggingface",
+    "repo_id": "TylerF/emb_adapter_minilm_to_openai_text-embedding-3-vlarge_v1",
+    "weights_file": "adapter_minilm_to_openai_text-embedding-3-vlarge_v1.pt",
+    "config_file": "adapter_config_minilm_to_openai_text-embedding-3-vlarge_v1.json",
+    "scoring_file": "adapter_quality_stats_minilm_to_openai_text-embedding-3-vlarge_v1.npz"
+  },
+  "fallback": null,
+  "service": null
+},
+  {
   "slug": "emb_adapter_minilm_to_openai_text-embedding-3-large_v1",
   "source": "sentence-transformers/all-MiniLM-L6-v2",
   "target": "openai/text-embedding-3-small",
