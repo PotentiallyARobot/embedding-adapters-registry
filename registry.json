@@ -25,7 +25,7 @@
   "flavor": "large",
   "description": "large adapter from intfloat/e5-base-v2 to openai/text-embedding-3-small",
   "version": "0.0.1",
-  "tags": ['pro'],
+  "tags": ["pro"],
   "mode": "local",
   "primary": {
     "type": "huggingface",
@@ -139,7 +139,7 @@
     "flavor": "generic",
     "description": "Generic linear adapter from gemini-text-embedding-004 to OpenAI text-embedding-3-small.",
     "version": "0.0.1",
-    "tags": ['pro'],
+    "tags": ["pro"],
     "mode": "local",
     "primary": {
       "type": "huggingface",
