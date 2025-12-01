@@ -28,9 +28,9 @@
   "tags": ["pro"],
   "mode": "local",
   "primary": {
-    "type": "huggingface",
+    "type": "huggingface_encrypted",
     "repo_id": "TylerF/emb_adapter_e5-base-v2-to-openai_text_embedding_3_large_v2",
-    "weights_file": "adapter_e5-base-v2-to-openai_text_embedding_3_large_v2.pt",
+    "weights_file": "adapter_e5-base-v2-to-openai_text_embedding_3_large_v2.enc",
     "config_file": "adapter_config_e5-base-v2-to-openai_text_embedding_3_large_v2.json",
     "scoring_file": "adapter_quality_stats_e5-base-v2-to-openai_text_embedding_3_large_v2.npz"
   },
