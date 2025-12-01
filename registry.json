@@ -161,9 +161,9 @@
     "tags": ["pro"],
     "mode": "local",
     "primary": {
-      "type": "huggingface",
+      "type": "huggingface_encrypted",
       "repo_id": "TylerF/emb_adapter_gemini_text_embedding_004_768_to_openai_text_embedding_small_linear_v1",
-      "weights_file": "adapter_gemini_to_openai_linear_v1.pt",
+      "weights_file": "adapter_gemini_to_openai_linear_v1.enc",
       "config_file": "adapter_config_gemini_to_openai_linear_v1.json",
       "scoring_file": "adapter_quality_stats_gemini_to_openai_linear_v1.npz"
     },
