@@ -4,5 +4,6 @@
   "SUPPORT_EMAIL": "embeddingadapters@gmail.com",
   "LOGIN_FLOW_TEXT": "To use the Embedding Adapters Developer API you need an API key.\n\nIf you already have a key (from a previous purchase or from an email),\npaste it below when prompted.\n\nIf you don't have one yet:\n  1. Open this link in your browser:\n     {payment_url}\n  2. Complete checkout.\n  3. Your API key will be emailed to the email you used in the purchase.\n  4. Come back here and paste the key when it arrives.\n\nFor support contact {support_email}\n",
   "DONATE_URL": "https://donate.stripe.com/4gMcN60hS5mbeQodmAeUU03",
-  "DOC_URL": "https://github.com/PotentiallyARobot/EmbeddingAdapters"
+  "DOC_URL": "https://github.com/PotentiallyARobot/EmbeddingAdapters",
+  "REGISTRY_ADD_URL": "https://embeddingadapters-api.embedding-adapters.workers.dev/registry/add"
 }
