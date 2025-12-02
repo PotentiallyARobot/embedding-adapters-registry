@@ -1,6 +1,6 @@
 {
   "API_BASE": "https://embeddingadapters-api.embedding-adapters.workers.dev",
-  "PAYMENT_URL": "https://buy.stripe.com/5kQ6oIfcM3e38s0beseUU02",
+  "PAYMENT_URL": "https://buy.stripe.com/test_eVq28s7Kk4i737G5U8eUU01",
   "SUPPORT_EMAIL": "embeddingadapters@gmail.com",
   "LOGIN_FLOW_TEXT": "To use the Embedding Adapters Developer API you need an API key.\n\nIf you already have a key (from a previous purchase or from an email),\npaste it below when prompted.\n\nIf you don't have one yet:\n  1. Open this link in your browser:\n     {payment_url}\n  2. Complete checkout.\n  3. Your API key will be emailed to the email you used in the purchase.\n  4. Come back here and paste the key when it arrives.\n\nFor support contact {support_email}\n"
 }
