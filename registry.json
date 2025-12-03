@@ -2,7 +2,7 @@
   {
     "slug": "emb_adapter_e5-base-v2-to-openai_text_embedding_3_small_v1",
     "source": "intfloat/e5-base-v2",
-    "target": "openai/text_embedding_3_small",
+    "target": "openai/text-embedding-3-small",
     "flavor": "small",
     "description": "Generic adapter from intfloat/e5-base-v2 to OpenAI openai_text_embedding_3 shallow",
     "version": ">=0.0.1",
@@ -118,7 +118,7 @@
   {
     "slug": "emb_adapter_e5-base-v2-to-openai_text_embedding_3_small_v1",
     "source": "intfloat/e5-base-v2",
-    "target": "openai/text_embedding_3_small",
+    "target": "openai/text-embedding-3-small",
     "flavor": "linear",
     "description": "Generic adapter from intfloat/e5-base-v2 to OpenAI openai_text_embedding_3 shallow",
     "version": ">=0.0.1",
