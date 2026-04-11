@@ -294,7 +294,7 @@
     "primary": {
       "type": "huggingface",
       "repo_id": "TylerF/all-minilm-L6-v2_to_openai_text-embedding-3-large",
-      "weights_file": "adapter.pt",
+      "weights_file": "adapter_model.pt",
       "config_file": "config.json",
       "scoring_file": "adapter_quality_stats.npz"
     },
