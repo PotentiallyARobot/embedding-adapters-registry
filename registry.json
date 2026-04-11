@@ -279,5 +279,47 @@
     },
     "fallback": null,
     "service": null
+  },
+  {
+    "slug": "emb_adapter_minilm_to_openai_text-embedding-3-large_v2",
+    "source": "sentence-transformers/all-MiniLM-L6-v2",
+    "target": "openai/text-embedding-3-large",
+    "flavor": "v2",
+    "description": "v2 adapter from sentence-transformers/all-MiniLM-L6-v2 to openai/text-embedding-3-large. SELU activation, skip connection, built-in quality head.",
+    "version": ">=0.0.5",
+    "tags": [
+      "subscription"
+    ],
+    "mode": "local",
+    "primary": {
+      "type": "huggingface",
+      "repo_id": "TylerF/all-minilm-L6-v2_to_openai_text-embedding-3-large",
+      "weights_file": "adapter.pt",
+      "config_file": "config.json",
+      "scoring_file": "adapter_quality_stats.npz"
+    },
+    "fallback": null,
+    "service": null
+  },
+  {
+    "slug": "emb_adapter_qwen3-0.6b_to_openai_text-embedding-3-large_v2",
+    "source": "Qwen/Qwen3-Embedding-0.6B",
+    "target": "openai/text-embedding-3-large",
+    "flavor": "v2",
+    "description": "v2 adapter from Qwen/Qwen3-Embedding-0.6B to openai/text-embedding-3-large. Higher accuracy, multilingual, longer contexts.",
+    "version": ">=0.0.5",
+    "tags": [
+      "subscription"
+    ],
+    "mode": "local",
+    "primary": {
+      "type": "huggingface",
+      "repo_id": "TylerF/qwen3-embedding-06b_to_openai_text-embedding-3-large",
+      "weights_file": "adapter.pt",
+      "config_file": "config.json",
+      "scoring_file": "adapter_quality_stats.npz"
+    },
+    "fallback": null,
+    "service": null
   }
 ]
